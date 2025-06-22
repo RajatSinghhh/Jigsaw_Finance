@@ -76,12 +76,10 @@ This document summarizes critical and informational findings uncovered during th
 ├──UninitializedManagerPointer.md
 ├──UninitializedTokenAddresses.md
 └── README.md   ← (you are here)
+
 ```
 
-### ✍️ Contributing
+### ✍️ Contributing
 
-Security engineers and contributors are welcome to submit issues or pull requests to refine this audit.
-
+If you identify additional vulnerabilities or improvements, please open an issue or submit a pull request. Security disclosures can be sent directly to *[rajatsingh321001@gmail.com]*.
 ---
-
-© <?= date('Y') ?> <?= $ownerName ?? "AuditDrop" ?> – All rights reserved.
