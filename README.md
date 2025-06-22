@@ -10,8 +10,8 @@ This document summarizes critical and informational findings uncovered during th
 | -- | ----------------------------------------------------------------------------------------- | -------------------- | ----------------------------------------------------------- |
 | 1  | Lack of Minimum Deposit Threshold Enables Dust-Griefing in `HoldingManager.deposit`       | Medium               | [Report 1](./DustGriefing_HoldingManagerDeposit.md)     |
 | 2  | Missing Success Verification in `emergencyGenericCall` (Holding.sol)                      | Medium               | [Report 2](./Holding_EmergencyCallBug.md)     |
-| 3  | Unbounded Loop in `borrowMultiple` Enables DoS via Oversized `_data` (HoldingManager.sol) | High                 | [Report 3](./HoldingManager_BorrowMultiple_DOS.md)               |
-| 4  | Mutable `mintLimit` Can Permanently Freeze jUSD Minting (JigsawUsd.sol)                   | High                 | [Report 4](./JigsawUSD_MintLimit_Freeze.md)         |
+| 3  | Unbounded Loop in `borrowMultiple` Enables DoS via Oversized `_data` (HoldingManager.sol) | Medium                | [Report 3](./HoldingManager_BorrowMultiple_DOS.md)               |
+| 4  | Mutable `mintLimit` Can Permanently Freeze jUSD Minting (JigsawUsd.sol)                   | Medium                 | [Report 4](./JigsawUSD_MintLimit_Freeze.md)         |
 | 5  | Naming Convention Violation in `getFeeAbsolute` Function (OperationsLib.sol)              | Informational        | [Report 5](./OperationsLib_InternalNamingBug.md) |
 | 6  | Lack of Minimum Deposit Enables Dust-Griefing in `deposit` (Staker.sol)                   | Medium               | [Report 6](./Staker_DustDeposit_DoS.md)             |
 | 7  | Uninitialized `manager` Pointer Breaks Access-Control & Fee Logic                         | High                 | [Report 7](./UninitializedManagerPointer.md)    |
