@@ -67,14 +67,14 @@ This document summarizes critical and informational findings uncovered during th
 
 ```
 .
-├── DustGriefing_HoldingManagerDeposit
-├──Holding_EmergencyCallBug
-├──HoldingManager_BorrowMultiple_DOS
-├──JigsawUSD_MintLimit_Freeze
-├──OperationsLib_InternalNamingBug
-├──Staker_DustDeposit_DoS
-├──UninitializedManagerPointer
-├──UninitializedTokenAddresses
+├── DustGriefing_HoldingManagerDeposit.md
+├──Holding_EmergencyCallBug.md
+├──HoldingManager_BorrowMultiple_DOS.md
+├──JigsawUSD_MintLimit_Freeze.md
+├──OperationsLib_InternalNamingBug.md
+├──Staker_DustDeposit_DoS.md
+├──UninitializedManagerPointer.md
+├──UninitializedTokenAddresses.md
 └── README.md   ← (you are here)
 ```
 
